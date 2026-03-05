@@ -112,4 +112,8 @@ with gr.Blocks() as demo:
         outputs=[output_table, download_file]
     )
 
-demo.launch(server_name="0.0.0.0", server_port=10000)
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=10000,
+    auth=("admin", "invoice123")
+)
