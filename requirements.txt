@@ -1,0 +1,4 @@
+gradio
+pdfplumber
+pandas
+openpyxl
